@@ -1,18 +1,16 @@
-# Tutorial: Designing a GraphQL API
+# Tutorial: Projetando uma API GraphQL
 
-This tutorial was created by [Shopify](https://www.shopify.ca/) for internal
-purposes. We've created a public version of it since we think it's useful to
-anyone creating a GraphQL API.
+Este tutorial foi criado pela [Shopify] (https://www.shopify.ca/) para uso interno.
+Nós criamos uma versão pública dele, pois achamos que é útil para qualquer pessoa que esteja criando uma API GraphQL.
 
-It's based on lessons learned from creating and evolving production schemas at
-Shopify over almost 3 years. The tutorial has evolved and will continue to
-change in the future so nothing is set in stone.
+Ele é baseado nas lições aprendidas com a criação e evolução de esquemas de produção na Shopify ao longo de quase 3 anos.
+O tutorial evoluiu e continuará a mudar no futuro, então nada é definitivo.
 
-We believe these design guidelines work in most cases. They may not all work
-for you. Even within the company we still question them and have exceptions
-since most rules can't apply 100% of the time. So don't just blindly copy and
-implement all of them. Pick and choose which ones make sense for you and your
-use cases.
+Acreditamos que estas diretrizes de design funcionam na maioria dos casos.
+Nem todas podem funcionar para você.
+Mesmo dentro da empresa, ainda os questionamos e temos exceções, pois a maioria das regras não pode ser aplicada 100% do tempo.
+Portanto, não faça uma cópia e implementação cega de todas elas.
+Escolha quais fazem sentido para você e para seus casos de uso.
 
 Table of Contents
 =================
